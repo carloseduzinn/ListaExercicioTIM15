@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio JavaScript 01</title>
+</head>
+<body>
+    <h1>Atividade de Cadrastro de dados de um professor</h1>
+
+    <p>nome: <span id="nome"> </span> </p>
+     <p>endereço: <span id="endereco"> </span></p>
+      <p>cidade: <span id="cidade"> </span></p>
+    <p>UF: <span id= "uf"></span> </p>
+       <p>CEP: <span id="cep"></span> </p> 
+     <p>telefone: <span id="telefone"> </span></p>
+       <p>CPF: <span id="cpf"></span> </p>
+       <p>RG: <span id=" rg"></span> </p>>
+      <p>data de nascimento: <span id="data de nascimento"></span> </p> 
+      <p>grau de escolaridade: <span id="grau de escolaridade"></span> </p>
+      <p>curso que leciona: <span id="curso que leciona"></span> </p>
+
+     <script>
+        let nome = prompt ("Digite o nome do professor");
+        let endereco = prompt ("Digite o endereço do professor");
+        let Cidade = prompt ("Digite a cidade do endereço do professor");
+        let UF = prompt ("Digite o UF do endereço do professor");
+        let CEP = prompt ("Digite o CEP do professor");
+        let Telefone = prompt ("telefone do professor");
+        let CPF = prompt ("CPF do professor");
+        let RG = prompt ("RG do professor");
+        let Data_de_nascimento = prompt ("data de nascimento do professor");
+        let Grau_de_escolaridade= prompt("grau de escolaridade do professor");
+        let Curso_que_leciona = prompt("leciona oo professor");
+
+        document.getElementById("nome").innerHTML= nome;
+        document.getElementById("endereco").innerHTML= endereco;
+        document.getElementById("cidade").innerHTML= Cidade;
+        document.getElementById("uf").innerHTML=UF;
+        document.getElementById("cep").innerHTML=CEP
+        document.getElementById("telefone").innerHTML= Telefone;
+        document.getElementById("cpf").innerHTML= CPF;
+        document.getElementById("rg").innerHTML= RG;
+        document.getElementById("data de nascimento").innerHTML= Data_de_nascimento;
+        document.getElementById("grau de escolaridade").innerHTML= Grau_de_escolaridade;
+        document.getElementById("curso que leciona").innerHTML= Curso_que_leciona;
+        </script>
+     
+
+</body>
+</html>
